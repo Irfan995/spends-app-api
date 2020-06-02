@@ -33,4 +33,4 @@ services:
       - MYSQL_ROOT_PASSWORD=supersecretpassword
 
     ports:
-      - "3306:3306"
+      - "3302:3306"

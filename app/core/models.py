@@ -11,5 +11,4 @@ class Spend(models.Model):
     quantity = models.DecimalField(max_digits=5, decimal_places=2)
     price = models.DecimalField(max_digits=5, decimal_places=2)
 
-    def __str__():
-        return self.item
+    
